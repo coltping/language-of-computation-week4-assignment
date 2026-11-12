@@ -1,0 +1,38 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.17, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\robin\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\robin\workspace\language-of-computation\week4-assignment
+collecting ... collected 30 items
+
+test_ingest.py::test_example[example-1] PASSED                           [  3%]
+test_ingest.py::test_example[example-2] PASSED                           [  6%]
+test_ingest.py::test_example[example-3] PASSED                           [ 10%]
+test_ingest.py::test_example[example-4] PASSED                           [ 13%]
+test_ingest.py::test_example[example-5] PASSED                           [ 16%]
+test_ingest.py::test_example[example-6] PASSED                           [ 20%]
+test_ingest.py::test_example[example-7] PASSED                           [ 23%]
+test_ingest.py::test_example[example-8] PASSED                           [ 26%]
+test_ingest.py::test_example[example-9] PASSED                           [ 30%]
+test_ingest.py::test_example[example-10] PASSED                          [ 33%]
+test_ingest.py::test_example[example-11] PASSED                          [ 36%]
+test_ingest.py::test_example[example-12] PASSED                          [ 40%]
+test_ingest.py::test_example[example-13] PASSED                          [ 43%]
+test_ingest.py::test_example[example-14] PASSED                          [ 46%]
+test_ingest.py::test_example[example-15] PASSED                          [ 50%]
+test_ingest.py::test_example[example-16] PASSED                          [ 53%]
+test_ingest.py::test_example[example-17] PASSED                          [ 56%]
+test_ingest.py::test_example[example-19] PASSED                          [ 60%]
+test_ingest.py::test_example[example-20] PASSED                          [ 63%]
+test_ingest.py::test_example[example-23] PASSED                          [ 66%]
+test_ingest.py::test_example[example-24] PASSED                          [ 70%]
+test_ingest.py::test_example_18_isbn_already_belongs_to_another_book PASSED [ 73%]
+test_ingest.py::test_example_21_existing_isbn_is_not_downgraded PASSED   [ 76%]
+test_ingest.py::test_example_22_unchanged_book_is_skipped PASSED         [ 80%]
+test_ingest.py::test_examples_table_is_fully_covered PASSED              [ 83%]
+test_ingest.py::test_running_same_file_twice_creates_no_duplicates[books.csv] PASSED [ 86%]
+test_ingest.py::test_running_same_file_twice_creates_no_duplicates[books-batch2.csv] PASSED [ 90%]
+test_ingest.py::test_every_run_adds_a_log_entry_without_overwriting PASSED [ 93%]
+test_ingest.py::test_counts_add_up PASSED                                [ 96%]
+test_ingest.py::test_same_file_on_empty_database_gives_same_database PASSED [100%]
+
+============================= 30 passed in 33.37s =============================

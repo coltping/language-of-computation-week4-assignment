@@ -1,0 +1,3 @@
+# Created by Python and pytest when the tests run
+__pycache__/
+.pytest_cache/
